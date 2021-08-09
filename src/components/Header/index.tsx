@@ -320,7 +320,7 @@ export default function Header() {
   const HeaderLink = (
     <HeaderLinks showMenu={showMenu}>
       <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
-        SwapV1
+        Swap V1
       </StyledNavLink>
       <StyledNavLink
         id={`pool-nav-link`}
