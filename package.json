@@ -121,7 +121,7 @@
   "dependencies": {
     "@bscex/core": "1.0.5",
     "@bscex/periphery": "1.1.6",
-    "@bscex/sdk": "3.2.5",
+    "@bscex/sdk": "3.2.3",
     "@bscswap/binance-connector": "^6.0.10"
   }
 }
