@@ -117,7 +117,7 @@ export default function Menu() {
             <Code size={14} />
             Contract
           </MenuItem>
-          <MenuItem id="link" href="https://T.ME/MHD_Ccommunity">
+          <MenuItem id="link" href="https://T.ME/MHD_Community">
             <MessageCircle size={14} />
             Support
           </MenuItem>
