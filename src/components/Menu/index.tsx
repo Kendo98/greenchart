@@ -103,7 +103,27 @@ export default function Menu() {
         <StyledMenuIcon />
       </StyledMenuButton>
 
-     
+      {open && (
+        <MenuFlyout>
+          <MenuItem id="link" href="/#">
+            <Info size={14} />
+            About
+          </MenuItem>
+          <MenuItem id="link" href="/#">
+            <Code size={14} />
+            Contract
+          </MenuItem>
+          <MenuItem id="link" href="https://poocoin.app/">
+            <PieChart size={14} />
+            Chart
+          </MenuItem>
+          {/*account && (
+            <ButtonPrimary onClick={openClaimModal} padding="8px 16px" width="100%" borderRadius="12px" mt="0.5rem">
+              Claim UNI
+            </ButtonPrimary>
+          )*/}
+        </MenuFlyout>
+      )}
     </StyledMenu>
   )
 }
