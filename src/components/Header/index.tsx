@@ -341,7 +341,7 @@ export default function Header() {
     <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
       Vote
     </StyledNavLink>*/}
-      <StyledAbsoluteLink href={'T.ME/MHD_Community'}>Telegram</StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'https://T.ME/MHD_Community'}>Telegram</StyledAbsoluteLink>
       <StyledAbsoluteLink href={'https://twitter.com/MHD_Community'}>Twitter</StyledAbsoluteLink>
       <StyledAbsoluteLink href={'#'}>RoadMap</StyledAbsoluteLink>
     </HeaderLinks>
