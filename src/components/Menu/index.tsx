@@ -119,7 +119,7 @@ export default function Menu() {
           </MenuItem>
           <MenuItem id="link" href="https://T.ME/MHD_Ccommunity">
             <MessageCircle size={14} />
-            Community
+            Support
           </MenuItem>
           <MenuItem id="link" href="https://poocoin.app">
             <PieChart size={14} />
