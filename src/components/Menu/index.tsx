@@ -105,31 +105,26 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://bscex.org/">
+          <MenuItem id="link" href="#">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://bscex.org/docs/">
+          <MenuItem id="link" href="#">
             <BookOpen size={14} />
-            Docs
+            Liquidity
           </MenuItem>
-          <MenuItem id="link" href={CODE_LINK}>
+          <MenuItem id="link" href="#">
             <Code size={14} />
-            Code
+            Contract
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/9r8YZ3Ys">
+          <MenuItem id="link" href="https://T.ME/MHD_Community">
             <MessageCircle size={14} />
             Discord
           </MenuItem>
-          <MenuItem id="link" href="https://pancakeswap.info/">
+          <MenuItem id="link" href="https://poocoin.app">
             <PieChart size={14} />
-            Analytics
+            Price Chart
           </MenuItem>
-          {/*account && (
-            <ButtonPrimary onClick={openClaimModal} padding="8px 16px" width="100%" borderRadius="12px" mt="0.5rem">
-              Claim UNI
-            </ButtonPrimary>
-          )*/}
         </MenuFlyout>
       )}
     </StyledMenu>
