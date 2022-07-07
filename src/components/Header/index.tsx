@@ -320,7 +320,7 @@ export default function Header() {
   const HeaderLink = (
     <HeaderLinks showMenu={showMenu}>
       <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
-        Swap V1
+        Swap
       </StyledNavLink>
       <StyledNavLink
         id={`pool-nav-link`}
@@ -341,9 +341,9 @@ export default function Header() {
     <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
       Vote
     </StyledNavLink>*/}
-      <StyledAbsoluteLink href={'https://pool.lz.finance'}>Telegram</StyledAbsoluteLink>
-      <StyledAbsoluteLink href={'https://swap.lz.finance'}>Twitter</StyledAbsoluteLink>
-      <StyledAbsoluteLink href={'https://governance.bscex.org'}>RoadMap</StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'T.ME/MHD_Community'}>Telegram</StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'https://twitter.com/MHD_Community'}>Twitter</StyledAbsoluteLink>
+      <StyledAbsoluteLink href={'#'}>RoadMap</StyledAbsoluteLink>
     </HeaderLinks>
   )
 
