@@ -335,16 +335,7 @@ export default function Header() {
       >
         {t('pool')}
       </StyledNavLink>
-      {/*<StyledNavLink id={`stake-nav-link`} to={'/uni'}>
-      UNI
-    </StyledNavLink>
-    <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
-      Vote
-    </StyledNavLink>*/}
-      {/*<StyledAbsoluteLink href={'https://pool.lz.finance'}>LZ Pool</StyledAbsoluteLink>
-      <StyledAbsoluteLink href={'https://swap.lz.finance'}>LZ Swap</StyledAbsoluteLink>
-      <StyledAbsoluteLink href={'https://governance.bscex.org'}>Governance</StyledAbsoluteLink>*/}
-    </HeaderLinks>
+     </HeaderLinks>
   )
 
   return (
