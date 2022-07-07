@@ -34,7 +34,7 @@ export default function URLWarning() {
       </div>
       <StyledClose size={12} onClick={toggleURLWarning} />
     </PhishAlert>
-  ) : window.location.hostname === 'liquidity.lz.finance' ? (
+  ) : window.location.hostname === 'mhd-phi.vercel.app' ? (
     <PhishAlert isActive={showURLWarning}>
       <div style={{ display: 'flex' }}>
         <AlertTriangle style={{ marginRight: 6 }} size={12} /> Always make sure the URL is
