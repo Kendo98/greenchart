@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Bscex/bscex-swap-interface'
+const CODE_LINK = 'https://bscscan/'
 
 export default function Menu() {
   // const { account } = useActiveWeb3React()
@@ -105,25 +105,25 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://bscex.org/">
+          <MenuItem id="link" href="https://mhd.community">
             <Info size={14} />
-            
+            About
           </MenuItem>
-          <MenuItem id="link" href="https://bscex.org/docs/">
+          <MenuItem id="link" href="https://mhd.community/docs">
             <BookOpen size={14} />
-            
+            Docs
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
-            
+            Contract
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/9r8YZ3Ys">
+          <MenuItem id="link" href="https://T.ME/MHD_Ccommunity">
             <MessageCircle size={14} />
-            
+            Community
           </MenuItem>
-          <MenuItem id="link" href="https://pancakeswap.info/">
+          <MenuItem id="link" href="https://poocoin.app">
             <PieChart size={14} />
-            
+            Chart
           </MenuItem>
           {/*account && (
             <ButtonPrimary onClick={openClaimModal} padding="8px 16px" width="100%" borderRadius="12px" mt="0.5rem">
