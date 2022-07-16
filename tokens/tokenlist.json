@@ -363,30 +363,6 @@
       "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee.png"
     },
     {
-      "name": "Dai Token",
-      "address": "0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867",
-      "symbol": "DAI",
-      "decimals": 18,
-      "chainId": 97,
-      "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867.png"
-    },
-    {
-      "name": "EOS Token",
-      "address": "0x6B043332090a6BE81De1503949Cfc8bac2cA1c33",
-      "symbol": "EOS",
-      "decimals": 18,
-      "chainId": 97,
-      "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0x6B043332090a6BE81De1503949Cfc8bac2cA1c33.png"
-    },
-    {
-      "name": "Ethereum Token",
-      "address": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
-      "symbol": "ETH",
-      "decimals": 18,
-      "chainId": 97,
-      "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378.png"
-    },
-    {
       "name": "Tether USD",
       "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
       "symbol": "USDT",
