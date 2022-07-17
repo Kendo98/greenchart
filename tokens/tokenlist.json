@@ -17,7 +17,8 @@
       "decimals": 18,
       "chainId": 56,
       "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png"
-    },{
+    },
+    {
       "name": "Meta Book Finance",
       "address": "0x063e0c632f946f20303ed69a679318012fb729aa",
       "symbol": "MBF",
