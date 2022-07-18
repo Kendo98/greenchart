@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://bscscan/'
+const CODE_LINK = 'https://bscscan.com/address/0x063e0c632F946F20303Ed69A679318012fB729aA'
 
 export default function Menu() {
   // const { account } = useActiveWeb3React()
@@ -105,11 +105,11 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://mhd.community">
+          <MenuItem id="link" href="https://metabook.finance">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://mhd.community/docs">
+          <MenuItem id="link" href="https://metabook.finance/docs.pdf">
             <BookOpen size={14} />
             Docs
           </MenuItem>
@@ -117,11 +117,11 @@ export default function Menu() {
             <Code size={14} />
             Contract
           </MenuItem>
-          <MenuItem id="link" href="https://T.ME/MHD_Community">
+          <MenuItem id="link" href="https://T.ME/MBF_BSC_Official">
             <MessageCircle size={14} />
             Support
           </MenuItem>
-          <MenuItem id="link" href="https://poocoin.app">
+          <MenuItem id="link" href="https://poocoin.app/tokens/0x063e0c632f946f20303ed69a679318012fb729aa">
             <PieChart size={14} />
             Chart
           </MenuItem>
