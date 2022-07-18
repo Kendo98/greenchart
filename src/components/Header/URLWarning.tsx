@@ -10,7 +10,7 @@ const PhishAlert = styled.div<{ isActive: any }>`
   padding: 6px 6px;
   background-color: ${({ theme }) => theme.blue1};
   color: white;
-  font-size: 11px;
+  font-size: 12px;
   justify-content: space-between;
   align-items: center;
   display: ${({ isActive }) => (isActive ? 'flex' : 'none')};
@@ -29,19 +29,19 @@ export default function URLWarning() {
   return isMobile ? (
     <PhishAlert isActive={showURLWarning}>
       <div style={{ display: 'flex' }}>
-        <AlertTriangle style={{ marginRight: 6 }} size={12} /> Make sure the URL is
-        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>https://swap.mhd.community</code>
+        <AlertTriangle style={{ marginRight: 6 }} size={14} /> Make sure the URL is
+        <code style={{ padding: '4px 4px', display: 'inline', fontWeight: 'bold' }}>https://swap.metabook.finance</code>
       </div>
-      <StyledClose size={12} onClick={toggleURLWarning} />
+      <StyledClose size={14} onClick={toggleURLWarning} />
     </PhishAlert>
-  ) : window.location.hostname === 'swap.mhd.community' ? (
+  ) : window.location.hostname === 'swap.metabook.finance' ? (
     <PhishAlert isActive={showURLWarning}>
       <div style={{ display: 'flex' }}>
-        <AlertTriangle style={{ marginRight: 6 }} size={12} /> Always make sure the URL is
-        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>https://swap.mhd.community/</code> -
+        <AlertTriangle style={{ marginRight: 6 }} size={14} /> Always make sure the URL is
+        <code style={{ padding: '4px 4px', display: 'inline', fontWeight: 'bold' }}>https://swap.metabook.finance/</code> -
         bookmark it to be safe.
       </div>
-      <StyledClose size={12} onClick={toggleURLWarning} />
+      <StyledClose size={14} onClick={toggleURLWarning} />
     </PhishAlert>
   ) : null
 }
