@@ -10,7 +10,7 @@ const PhishAlert = styled.div<{ isActive: any }>`
   padding: 6px 6px;
   background-color: ${({ theme }) => theme.blue1};
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   justify-content: space-between;
   align-items: center;
   display: ${({ isActive }) => (isActive ? 'flex' : 'none')};
@@ -30,7 +30,7 @@ export default function URLWarning() {
     <PhishAlert isActive={showURLWarning}>
       <div style={{ display: 'flex' }}>
         <AlertTriangle style={{ marginRight: 6 }} size={14} /> Make sure the URL is
-        <code style={{ padding: '4px 4px', display: 'inline', fontWeight: 'bold' }}>https://swap.metabook.finance</code>
+        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>https://swap.metabook.finance</code>
       </div>
       <StyledClose size={14} onClick={toggleURLWarning} />
     </PhishAlert>
@@ -38,7 +38,7 @@ export default function URLWarning() {
     <PhishAlert isActive={showURLWarning}>
       <div style={{ display: 'flex' }}>
         <AlertTriangle style={{ marginRight: 6 }} size={14} /> Always make sure the URL is
-        <code style={{ padding: '4px 4px', display: 'inline', fontWeight: 'bold' }}>https://swap.metabook.finance/</code> -
+        <code style={{ padding: '0 4px', display: 'inline', fontWeight: 'bold' }}>https://swap.metabook.finance/</code> -
         bookmark it to be safe.
       </div>
       <StyledClose size={14} onClick={toggleURLWarning} />
