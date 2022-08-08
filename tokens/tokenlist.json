@@ -24,7 +24,7 @@
       "symbol": "GREEN",
       "decimals": 18,
       "chainId": 56,
-      "logoURI": "https://raw.githubusercontent.com/DexMBF/swap/master/media/greenchart.png"
+      "logoURI": "https://raw.githubusercontent.com/DexMBF/swap/master/media/greenchartlogo.png"
     },
     {
       "name": "BUSD Token",
